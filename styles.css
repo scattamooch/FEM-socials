@@ -1,0 +1,59 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px !important;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border-width: 0;
+    cursor: pointer;
+    height: 50px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black
+}
+
+button:active {
+    background-color: aqua;
+    color: black;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+.container-div {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 7%;
+    border-radius: 10px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%) !important;
+    margin-top: -10px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin-left: 42.5%;
+}
